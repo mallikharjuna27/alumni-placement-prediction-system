@@ -1,36 +1,25 @@
 # Alumni Placement Prediction System
 
-## 📌 Description
-This project analyzes alumni placement data to identify trends and patterns using Python.
+## 📌 Overview
+This project performs data analysis on alumni placement data to identify trends and insights related to student placements.
 
-## 🚀 Features
-- Data preprocessing using Pandas
-- Placement trend analysis
-- CGPA comparison of placed vs non-placed students
-- Visualization using Matplotlib
+## 🚀 Key Features
+- Analyzes placement distribution
+- Calculates placement percentage
+- Compares CGPA of placed vs non-placed students
+- Visualizes results using graphs
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 
-## 📊 Output
-- Placement distribution
-- Average CGPA comparison
-- Placement percentage
+## 📊 Sample Output
+<img width="640" height="480" alt="output" src="https://github.com/user-attachments/assets/4a1ce9c6-ef87-4c69-b664-bc1e059064b5" />
+
 
 ## ▶️ How to Run
-1. Install dependencies:
-   pip install pandas numpy matplotlib
-
-2. Run the project:
-   python main.py
-
-## 📁 Dataset
-Contains student data including CGPA, skills, internships, and placement status.
-
-## 🎯 Future Improvements
-- Add machine learning model for prediction
-- Use larger dataset
-- Build web interface
+```bash
+pip install pandas numpy matplotlib
+python main.py
